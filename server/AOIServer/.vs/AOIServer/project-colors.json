@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d3312c51-c1ce-4755-8a1f-cd8f8f928401": {
+      "ProjectGuid": "d3312c51-c1ce-4755-8a1f-cd8f8f928401",
+      "DisplayName": "AOIServer",
+      "ColorIndex": 0
+    },
+    "038e6917-878b-40ab-b542-4cd1061ad169": {
+      "ProjectGuid": "038e6917-878b-40ab-b542-4cd1061ad169",
+      "DisplayName": "AOICell",
+      "ColorIndex": 1
+    },
+    "55be76f9-d011-4740-ad78-a6452754960f": {
+      "ProjectGuid": "55be76f9-d011-4740-ad78-a6452754960f",
+      "DisplayName": "AOICellProtocol",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
