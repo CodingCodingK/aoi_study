@@ -2,9 +2,30 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "AsyncNet/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AsyncNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsyncNet.dll": {}
+        }
+      },
+      "PELog/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PELog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PELog.dll": {}
+        }
+      },
       "AOICell/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "PELog": "1.0.1"
+        },
         "compile": {
           "bin/placeholder/AOICell.dll": {}
         },
@@ -15,6 +36,9 @@
       "AOICellProtocol/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AsyncNet": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/AOICellProtocol.dll": {}
         },
@@ -25,6 +49,32 @@
     }
   },
   "libraries": {
+    "AsyncNet/1.0.0": {
+      "sha512": "HB/3srIHoyFmUcCDlNZCD2iwF/EGvF9wLpBe11vtAWTtTDvJkppXWBWgN4qTXxlvNlKP48vrT7lHeJJRJfkjTw==",
+      "type": "package",
+      "path": "asyncnet/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asyncnet.1.0.0.nupkg.sha512",
+        "asyncnet.nuspec",
+        "lib/netstandard2.0/AsyncNet.dll",
+        "齐齐课圆形Logo(500x500).png"
+      ]
+    },
+    "PELog/1.0.1": {
+      "sha512": "EFy1lb6PV8Om8cAPD1epxiIQm2+H8eqEWpmk+LN0djdvzxFfbO9HzkJSoA72u6qNTJberWyVToYdIHfN4O0xQQ==",
+      "type": "package",
+      "path": "pelog/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PELog.dll",
+        "pelog.1.0.1.nupkg.sha512",
+        "pelog.nuspec",
+        "齐齐课圆形Logo(500x500).png"
+      ]
+    },
     "AOICell/1.0.0": {
       "type": "project",
       "path": "../AOICell/AOICell.csproj",
@@ -39,7 +89,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AOICell >= 1.0.0",
-      "AOICellProtocol >= 1.0.0"
+      "AOICellProtocol >= 1.0.0",
+      "AsyncNet >= 1.0.0",
+      "PELog >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -94,6 +146,16 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AsyncNet": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "PELog": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

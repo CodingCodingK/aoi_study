@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FPnQdkfgTxQ1WODEJ1OX2S/m9B0KRj/uGRXpouEoToDNmXOwww9tk/FIAo9YlPBiBNur0XPZsliJz0F+KYM/bw==",
+  "dgSpecHash": "fiqIZfVg0Ih1zcR5wWdZ29Z0Pymgx4I2eu12+X4w9Ka+nbvupAJuNWw1ZUL/E8FkOduFDa55C/2I7hFQfhHcOw==",
   "success": true,
   "projectFilePath": "C:\\Github\\aoi_study\\server\\AOIServer\\AOICell\\AOICell.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\pelog\\1.0.1\\pelog.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

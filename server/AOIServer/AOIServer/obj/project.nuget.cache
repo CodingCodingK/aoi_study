@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dKJ4Pf9+qPLtWP5lFXyoV7fEQpD/MGL0XdYsFPnkh0oes16H4v1vdUtSVuvUT8WrlfusxfMyy8Ice2o3aKraiQ==",
+  "dgSpecHash": "1kk8MBkA7ErU1MAGyZkNcJdiLGDZ38rx2FmWAha/h94T9b0LxX/OJi+uP45j8G5RpI7ASrQJexPRHwImmD3nIQ==",
   "success": true,
   "projectFilePath": "C:\\Github\\aoi_study\\server\\AOIServer\\AOIServer\\AOIServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\asyncnet\\1.0.0\\asyncnet.1.0.0.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\pelog\\1.0.1\\pelog.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

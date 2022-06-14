@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "AsyncNet/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AsyncNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AsyncNet.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +38,19 @@
     }
   },
   "libraries": {
+    "AsyncNet/1.0.0": {
+      "sha512": "HB/3srIHoyFmUcCDlNZCD2iwF/EGvF9wLpBe11vtAWTtTDvJkppXWBWgN4qTXxlvNlKP48vrT7lHeJJRJfkjTw==",
+      "type": "package",
+      "path": "asyncnet/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "asyncnet.1.0.0.nupkg.sha512",
+        "asyncnet.nuspec",
+        "lib/netstandard2.0/AsyncNet.dll",
+        "齐齐课圆形Logo(500x500).png"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -175,6 +197,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "AsyncNet >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -224,6 +247,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "AsyncNet": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

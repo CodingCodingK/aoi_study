@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "PELog": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
