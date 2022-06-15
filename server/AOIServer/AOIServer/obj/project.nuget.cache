@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1kk8MBkA7ErU1MAGyZkNcJdiLGDZ38rx2FmWAha/h94T9b0LxX/OJi+uP45j8G5RpI7ASrQJexPRHwImmD3nIQ==",
+  "dgSpecHash": "HxCF7KZJ040mPH4mCnZD1dI62KjpmMDbPZulS6eFN3mbZk0cDU6Fv9E9ThoGs1rgATYnsxc8v20vGXN6/UCxBA==",
   "success": true,
   "projectFilePath": "C:\\Github\\aoi_study\\server\\AOIServer\\AOIServer\\AOIServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\asyncnet\\1.0.0\\asyncnet.1.0.0.nupkg.sha512",
-    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\pelog\\1.0.1\\pelog.1.0.1.nupkg.sha512"
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\pelog\\1.0.1\\pelog.1.0.1.nupkg.sha512",
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }
